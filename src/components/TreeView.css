@@ -1,0 +1,63 @@
+.back-arrow {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #000; /* Set the color to a dark color, you can use hex, rgb, or color names */
+    font-weight: 700; /* Optional: Set font weight if needed */
+    background-color: #fff; /* Optional: Set background color if needed */
+    padding: 5px 10px; /* Optional: Add padding for better visibility */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  }
+  .tree-view-container {
+    margin-top: 10px; /* Adjust this margin based on your design */
+   } 
+
+  #BackButton
+  {
+    display: flex;
+    margin-top: 10px;
+    justify-content:right;
+    align-items: center;
+    margin-bottom: 40px; /* Add 40px space between .button-container and #name */
+  }
+
+  .treeholder
+  {
+    margin-top: -30px;
+  }
+
+  #tv_hrad {
+    text-align: center;
+    margin-top: 50px;
+    color: #000000;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-weight: 600;
+    background-color: #3b9af3;
+    white-space: normal;
+    margin-left: 10px;
+    display: table;
+    width: 90%; /* Set the width to 90% of the viewport */
+    height: auto;
+    text-align: center;
+    line-height: normal;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    overflow-wrap: break-word;
+  }
+
+  .page-container{
+    background-image: url('../Assets/watermark.jpg');
+    background-size: 280px;
+    /* Adjust to your preference */
+    background-repeat: no-repeat;
+    /* Ensure the image is not repeated */
+    background-position: center;
+    top: 80px;
+    /* Center the background image */
+    opacity: 1;
+  }
